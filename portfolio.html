@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Portfólio | Renato Guerra Fotografia</title>
+  <meta name="description" content="Portfólio de Renato Guerra: casamentos, bodas, batizados, celebrações religiosas e fotografia comercial. Veja histórias reais registradas com emoção e luz natural.">
+  <meta name="robots" content="index,follow">
+  <meta name="theme-color" content="#0e0d0c">
+  <link rel="canonical" href="portfolio.html">
+  <link rel="icon" type="image/png" href="img/brand/favicon-64.png" sizes="64x64">
+  <link rel="icon" type="image/png" href="img/brand/favicon-256.png" sizes="256x256">
+  <link rel="apple-touch-icon" href="img/brand/apple-touch-icon.png">
+
+  <meta property="og:type" content="website">
+  <meta property="og:locale" content="pt_BR">
+  <meta property="og:site_name" content="Renato Guerra Fotografia">
+  <meta property="og:title" content="Portfólio | Renato Guerra Fotografia">
+  <meta property="og:description" content="Casamentos, bodas, batizados, celebrações religiosas e fotografia comercial — histórias reais registradas com emoção.">
+  <meta property="og:image" content="img/casamento-mariana-04.jpg">
+  <meta name="twitter:card" content="summary_large_image">
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,500;0,600;0,700;1,500;1,600&family=Montserrat:wght@400;500;600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+<header class="site-header is-solid">
+  <div class="header-inner">
+    <a class="brand" href="./" aria-label="Renato Guerra Fotografia — página inicial">
+      <img src="img/brand/logo-round.png" alt="Logo Renato Guerra Fotografia" width="44" height="44">
+      <span class="brand-name">Renato Guerra<small>FOTOGRAFIA</small></span>
+    </a>
+    <button class="nav-toggle" aria-expanded="false" aria-controls="nav-principal" aria-label="Abrir menu">
+      <span></span>
+    </button>
+    <nav class="nav" id="nav-principal" aria-label="Navegação principal">
+      <a href="./">Início</a>
+      <a href="portfolio.html" aria-current="page">Portfólio</a>
+      <a href="./#servicos">Serviços</a>
+      <a href="./#sobre">Sobre</a>
+      <a href="./#contato" class="nav-cta">Orçamento</a>
+    </nav>
+  </div>
+</header>
+
+<main>
+  <div class="page-hero">
+    <div class="wrap">
+      <p class="eyebrow">Portfólio</p>
+      <h1>Histórias reais, emoção verdadeira</h1>
+      <p>Clique em qualquer fotografia para ver em tela cheia. Use os filtros para navegar por cada especialidade.</p>
+    </div>
+  </div>
+
+  <div class="filters" role="group" aria-label="Filtrar portfólio por categoria">
+    <button class="filter is-active" data-filter="todos">Todos</button>
+    <button class="filter" data-filter="casamentos">Casamentos</button>
+    <button class="filter" data-filter="bodas">Bodas</button>
+    <button class="filter" data-filter="batizados">Batizados</button>
+    <button class="filter" data-filter="religiosas">Cerimônias religiosas</button>
+    <button class="filter" data-filter="comercial">Comercial e produto</button>
+  </div>
+
+  <div class="gal" id="galeria" aria-label="Galeria de fotografias">
+    <noscript><p style="padding:40px;text-align:center;color:#b9ae9f">Ative o JavaScript para visualizar a galeria completa.</p></noscript>
+  </div>
+
+  <section class="cta-band" aria-label="Contato" style="border-top:1px solid var(--line)">
+    <div class="wrap reveal">
+      <p class="eyebrow eyebrow--center" style="justify-content:center">Gostou do que viu?</p>
+      <h2>O seu dia também pode ser a próxima história.</h2>
+      <p>Consulte a disponibilidade da sua data e receba uma proposta sob medida — sem compromisso.</p>
+      <div class="btn-row">
+        <a class="btn btn--solid" href="./#contato">Solicitar orçamento</a>
+        <a class="btn btn--ghost" data-wa data-wa-msg="Olá, Renato! Vi seu portfólio e gostaria de mais informações sobre seus serviços." href="./#contato">Falar com Renato</a>
+      </div>
+    </div>
+  </section>
+</main>
+
+<div class="lightbox" id="lightbox" role="dialog" aria-modal="true" aria-label="Visualização de fotografia">
+  <span class="lb-count" aria-live="polite"></span>
+  <button class="lb-btn lb-close" aria-label="Fechar visualização">
+    <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M6 6l12 12M18 6L6 18"/></svg>
+  </button>
+  <button class="lb-btn lb-prev" aria-label="Fotografia anterior">
+    <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M15 5l-7 7 7 7"/></svg>
+  </button>
+  <img src="" alt="">
+  <button class="lb-btn lb-next" aria-label="Próxima fotografia">
+    <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M9 5l7 7-7 7"/></svg>
+  </button>
+  <span class="lb-caption"></span>
+</div>
+
+<a class="wa-float" data-wa href="./#contato" aria-label="Falar com Renato no WhatsApp">
+  <svg viewBox="0 0 32 32" aria-hidden="true"><path d="M16 3C9.4 3 4 8.3 4 14.9c0 2.6.8 5 2.3 7L4.5 29l7.4-1.9c1.9 1 4 1.6 6.1 1.6 6.6 0 12-5.3 12-11.9S22.6 3 16 3zm0 21.8c-1.9 0-3.8-.5-5.4-1.5l-.4-.2-4.4 1.1 1.2-4.2-.3-.4c-1.2-1.7-1.8-3.6-1.8-5.7 0-5.4 4.5-9.8 10.1-9.8s10.1 4.4 10.1 9.8-4.5 9.9-10.1 9.9zm5.5-7.4c-.3-.1-1.8-.9-2-1-.3-.1-.5-.1-.7.1-.2.3-.8 1-.9 1.2-.2.2-.3.2-.6.1-.3-.1-1.3-.5-2.4-1.5-.9-.8-1.5-1.8-1.7-2.1-.2-.3 0-.5.1-.6l.4-.5c.1-.2.2-.3.3-.5.1-.2 0-.4 0-.5s-.7-1.6-1-2.2c-.2-.5-.5-.5-.7-.5h-.6c-.2 0-.5.1-.8.4-.3.3-1 1-1 2.5s1.1 2.9 1.2 3.1c.1.2 2.1 3.2 5.1 4.5.7.3 1.3.5 1.7.6.7.2 1.4.2 1.9.1.6-.1 1.8-.7 2-1.4.3-.7.3-1.3.2-1.4-.1-.1-.3-.2-.6-.4z"/></svg>
+</a>
+
+<footer class="site-footer">
+  <div class="wrap footer-grid">
+    <div class="footer-brand">
+      <img src="img/brand/logo-round.png" alt="Logo Renato Guerra Fotografia" loading="lazy" width="64" height="64">
+      <p>Fotografia profissional de casamentos, bodas, batizados e celebrações religiosas — histórias reais, emoção verdadeira.</p>
+      <div class="btn-row">
+        <a class="btn btn--ghost" style="min-height:44px;padding:10px 22px" href="./#contato">Solicitar orçamento</a>
+      </div>
+    </div>
+    <div>
+      <h4>Navegação</h4>
+      <ul class="footer-links">
+        <li><a href="./">Início</a></li>
+        <li><a href="portfolio.html">Portfólio</a></li>
+        <li><a href="./#servicos">Serviços</a></li>
+        <li><a href="./#sobre">Sobre</a></li>
+        <li><a href="./#contato">Contato</a></li>
+      </ul>
+    </div>
+    <div>
+      <h4>Contato</h4>
+      <ul class="footer-links">
+        <li><a data-wa href="./#contato">WhatsApp</a></li>
+        <li><a data-ig href="https://www.instagram.com/guerra.renatofotografia/" style="display:none">Instagram</a></li>
+        <li><a data-email href="#" style="display:none">E-mail</a></li>
+      </ul>
+    </div>
+  </div>
+  <div class="footer-bottom">
+    <div class="wrap">
+      <span>© <span id="ano">2026</span> Renato Guerra Fotografia. Todos os direitos reservados.</span>
+      <span>As fotografias deste site são obras do autor e protegidas por lei.</span>
+    </div>
+  </div>
+</footer>
+
+<script src="js/galeria.js" defer></script>
+<script src="js/main.js" defer></script>
+</body>
+</html>

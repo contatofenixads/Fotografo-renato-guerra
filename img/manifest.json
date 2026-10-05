@@ -1,0 +1,499 @@
+﻿[
+    {
+        "name":  "batismo-01",
+        "w":  1000,
+        "h":  667,
+        "tw":  820,
+        "th":  547
+    },
+    {
+        "name":  "batismo-02",
+        "w":  1000,
+        "h":  667,
+        "tw":  820,
+        "th":  547
+    },
+    {
+        "name":  "batismo-03",
+        "w":  1000,
+        "h":  667,
+        "tw":  820,
+        "th":  547
+    },
+    {
+        "name":  "batismo-04",
+        "w":  1000,
+        "h":  667,
+        "tw":  820,
+        "th":  547
+    },
+    {
+        "name":  "batismo-05",
+        "w":  1000,
+        "h":  667,
+        "tw":  820,
+        "th":  547
+    },
+    {
+        "name":  "batismo-06",
+        "w":  1000,
+        "h":  667,
+        "tw":  820,
+        "th":  547
+    },
+    {
+        "name":  "batismo-07",
+        "w":  1000,
+        "h":  667,
+        "tw":  820,
+        "th":  547
+    },
+    {
+        "name":  "bodas-01",
+        "w":  1600,
+        "h":  1067,
+        "tw":  820,
+        "th":  547
+    },
+    {
+        "name":  "bodas-02",
+        "w":  1600,
+        "h":  1067,
+        "tw":  820,
+        "th":  547
+    },
+    {
+        "name":  "bodas-03",
+        "w":  1600,
+        "h":  1067,
+        "tw":  820,
+        "th":  547
+    },
+    {
+        "name":  "bodas-04",
+        "w":  1600,
+        "h":  1067,
+        "tw":  820,
+        "th":  547
+    },
+    {
+        "name":  "bodas-05",
+        "w":  1600,
+        "h":  1067,
+        "tw":  820,
+        "th":  547
+    },
+    {
+        "name":  "bodas-06",
+        "w":  1600,
+        "h":  1067,
+        "tw":  820,
+        "th":  547
+    },
+    {
+        "name":  "bodas-07",
+        "w":  1600,
+        "h":  1067,
+        "tw":  820,
+        "th":  547
+    },
+    {
+        "name":  "bodas-08",
+        "w":  1600,
+        "h":  1067,
+        "tw":  820,
+        "th":  547
+    },
+    {
+        "name":  "casamento-mariana-01",
+        "w":  1600,
+        "h":  1067,
+        "tw":  820,
+        "th":  547
+    },
+    {
+        "name":  "casamento-mariana-02",
+        "w":  1600,
+        "h":  1067,
+        "tw":  820,
+        "th":  547
+    },
+    {
+        "name":  "casamento-mariana-03",
+        "w":  1600,
+        "h":  1067,
+        "tw":  820,
+        "th":  547
+    },
+    {
+        "name":  "casamento-mariana-04",
+        "w":  1600,
+        "h":  1067,
+        "tw":  820,
+        "th":  547
+    },
+    {
+        "name":  "casamento-mariana-05",
+        "w":  1600,
+        "h":  1067,
+        "tw":  820,
+        "th":  547
+    },
+    {
+        "name":  "casamento-mariana-06",
+        "w":  1600,
+        "h":  1067,
+        "tw":  820,
+        "th":  547
+    },
+    {
+        "name":  "casamento-mariana-07",
+        "w":  1600,
+        "h":  1067,
+        "tw":  820,
+        "th":  547
+    },
+    {
+        "name":  "casamento-mariana-08",
+        "w":  1600,
+        "h":  1067,
+        "tw":  820,
+        "th":  547
+    },
+    {
+        "name":  "casamento-mariana-09",
+        "w":  2000,
+        "h":  1333,
+        "tw":  820,
+        "th":  547
+    },
+    {
+        "name":  "casamento-taiene-01",
+        "w":  1600,
+        "h":  1067,
+        "tw":  820,
+        "th":  547
+    },
+    {
+        "name":  "casamento-taiene-02",
+        "w":  1600,
+        "h":  1067,
+        "tw":  820,
+        "th":  547
+    },
+    {
+        "name":  "casamento-taiene-03",
+        "w":  1600,
+        "h":  1067,
+        "tw":  820,
+        "th":  547
+    },
+    {
+        "name":  "casamento-taiene-04",
+        "w":  1600,
+        "h":  1067,
+        "tw":  820,
+        "th":  547
+    },
+    {
+        "name":  "casamento-taiene-05",
+        "w":  1600,
+        "h":  1067,
+        "tw":  820,
+        "th":  547
+    },
+    {
+        "name":  "casamento-taiene-06",
+        "w":  1600,
+        "h":  1067,
+        "tw":  820,
+        "th":  547
+    },
+    {
+        "name":  "casamento-taiene-07",
+        "w":  1600,
+        "h":  1067,
+        "tw":  820,
+        "th":  547
+    },
+    {
+        "name":  "casamento-taiene-08",
+        "w":  1600,
+        "h":  1067,
+        "tw":  820,
+        "th":  547
+    },
+    {
+        "name":  "casamento-taiene-09",
+        "w":  1600,
+        "h":  1067,
+        "tw":  820,
+        "th":  547
+    },
+    {
+        "name":  "casamento-taiene-10",
+        "w":  1600,
+        "h":  1067,
+        "tw":  820,
+        "th":  547
+    },
+    {
+        "name":  "comercial-amah-01",
+        "w":  1067,
+        "h":  1600,
+        "tw":  547,
+        "th":  820
+    },
+    {
+        "name":  "comercial-amah-02",
+        "w":  1067,
+        "h":  1600,
+        "tw":  547,
+        "th":  820
+    },
+    {
+        "name":  "comercial-amah-03",
+        "w":  1067,
+        "h":  1600,
+        "tw":  547,
+        "th":  820
+    },
+    {
+        "name":  "comercial-amah-04",
+        "w":  1600,
+        "h":  1141,
+        "tw":  820,
+        "th":  585
+    },
+    {
+        "name":  "comercial-amah-05",
+        "w":  1067,
+        "h":  1600,
+        "tw":  547,
+        "th":  820
+    },
+    {
+        "name":  "comercial-amah-06",
+        "w":  1067,
+        "h":  1600,
+        "tw":  547,
+        "th":  820
+    },
+    {
+        "name":  "comercial-amah-07",
+        "w":  1067,
+        "h":  1600,
+        "tw":  547,
+        "th":  820
+    },
+    {
+        "name":  "comercial-amah-08",
+        "w":  1067,
+        "h":  1600,
+        "tw":  547,
+        "th":  820
+    },
+    {
+        "name":  "comercial-amah-09",
+        "w":  1600,
+        "h":  1067,
+        "tw":  820,
+        "th":  547
+    },
+    {
+        "name":  "comercial-amah-10",
+        "w":  1067,
+        "h":  1600,
+        "tw":  547,
+        "th":  820
+    },
+    {
+        "name":  "comercial-amah-11",
+        "w":  1600,
+        "h":  1600,
+        "tw":  820,
+        "th":  820
+    },
+    {
+        "name":  "comercial-amah-12",
+        "w":  1600,
+        "h":  1600,
+        "tw":  820,
+        "th":  820
+    },
+    {
+        "name":  "comercial-amah-13",
+        "w":  1128,
+        "h":  1600,
+        "tw":  578,
+        "th":  820
+    },
+    {
+        "name":  "produto-artisana-01",
+        "w":  1600,
+        "h":  1600,
+        "tw":  820,
+        "th":  820
+    },
+    {
+        "name":  "produto-artisana-02",
+        "w":  1600,
+        "h":  1600,
+        "tw":  820,
+        "th":  820
+    },
+    {
+        "name":  "produto-artisana-03",
+        "w":  1600,
+        "h":  1600,
+        "tw":  820,
+        "th":  820
+    },
+    {
+        "name":  "produto-artisana-04",
+        "w":  1600,
+        "h":  1600,
+        "tw":  820,
+        "th":  820
+    },
+    {
+        "name":  "produto-artisana-05",
+        "w":  1600,
+        "h":  1600,
+        "tw":  820,
+        "th":  820
+    },
+    {
+        "name":  "produto-artisana-06",
+        "w":  1600,
+        "h":  1600,
+        "tw":  820,
+        "th":  820
+    },
+    {
+        "name":  "produto-artisana-07",
+        "w":  1600,
+        "h":  1600,
+        "tw":  820,
+        "th":  820
+    },
+    {
+        "name":  "produto-artisana-08",
+        "w":  1600,
+        "h":  1600,
+        "tw":  820,
+        "th":  820
+    },
+    {
+        "name":  "produto-artisana-09",
+        "w":  1600,
+        "h":  1600,
+        "tw":  820,
+        "th":  820
+    },
+    {
+        "name":  "produto-artisana-10",
+        "w":  1600,
+        "h":  1600,
+        "tw":  820,
+        "th":  820
+    },
+    {
+        "name":  "produto-artisana-11",
+        "w":  1600,
+        "h":  1600,
+        "tw":  820,
+        "th":  820
+    },
+    {
+        "name":  "produto-artisana-12",
+        "w":  1600,
+        "h":  1600,
+        "tw":  820,
+        "th":  820
+    },
+    {
+        "name":  "produto-artisana-13",
+        "w":  1600,
+        "h":  1600,
+        "tw":  820,
+        "th":  820
+    },
+    {
+        "name":  "produto-artisana-14",
+        "w":  1600,
+        "h":  1600,
+        "tw":  820,
+        "th":  820
+    },
+    {
+        "name":  "produto-artisana-15",
+        "w":  1600,
+        "h":  1600,
+        "tw":  820,
+        "th":  820
+    },
+    {
+        "name":  "produto-artisana-16",
+        "w":  1600,
+        "h":  1600,
+        "tw":  820,
+        "th":  820
+    },
+    {
+        "name":  "produto-artisana-17",
+        "w":  1600,
+        "h":  1600,
+        "tw":  820,
+        "th":  820
+    },
+    {
+        "name":  "produto-artisana-18",
+        "w":  1600,
+        "h":  1600,
+        "tw":  820,
+        "th":  820
+    },
+    {
+        "name":  "produto-artisana-19",
+        "w":  1600,
+        "h":  1600,
+        "tw":  820,
+        "th":  820
+    },
+    {
+        "name":  "produto-artisana-20",
+        "w":  1600,
+        "h":  1600,
+        "tw":  820,
+        "th":  820
+    },
+    {
+        "name":  "religiosa-01",
+        "w":  1600,
+        "h":  1067,
+        "tw":  820,
+        "th":  547
+    },
+    {
+        "name":  "religiosa-02",
+        "w":  1600,
+        "h":  1067,
+        "tw":  820,
+        "th":  547
+    },
+    {
+        "name":  "religiosa-03",
+        "w":  1600,
+        "h":  1067,
+        "tw":  820,
+        "th":  547
+    },
+    {
+        "name":  "religiosa-04",
+        "w":  1600,
+        "h":  1067,
+        "tw":  820,
+        "th":  547
+    }
+]
