@@ -159,8 +159,27 @@ var RGF_CONFIG = {
   if (gal && window.RGF_GALERIA) {
     var labels = {
       casamentos: "Casamentos", bodas: "Bodas", batizados: "Batizados",
-      religiosas: "Cerimônias religiosas", comercial: "Comercial e produto"
+      religiosas: "Cerimônias religiosas", aniversarios: "Aniversários",
+      ensaios: "Ensaios", comercial: "Comercial e produto"
     };
+    var PAGE = 24, STEP = 12, shown = PAGE;
+    var moreBtn = $("#gal-more");
+    var catAtivo = "todos";
+    var filt = function () {
+      $$(".gal-item", gal).forEach(function (it) {
+        var okCat = catAtivo === "todos" || it.getAttribute("data-cat") === catAtivo;
+        var idx = parseInt(it.getAttribute("data-index"), 10);
+        var okShow = catAtivo !== "todos" || idx < shown;
+        it.classList.toggle("is-hidden", !(okCat && okShow));
+      });
+      if (moreBtn) moreBtn.hidden = !(catAtivo === "todos" && shown < window.RGF_GALERIA.length);
+    };
+    if (moreBtn) {
+      moreBtn.addEventListener("click", function () {
+        shown += STEP;
+        filt();
+      });
+    }
     var frag = document.createDocumentFragment();
     window.RGF_GALERIA.forEach(function (g, i) {
       var fig = document.createElement("figure");
@@ -186,16 +205,25 @@ var RGF_CONFIG = {
     });
     gal.appendChild(frag);
 
+    /* pré-filtro via ?cat= na URL (cards de especialidades) */
+    var urlCat = new URLSearchParams(location.search).get("cat");
+    if (urlCat && labels[urlCat]) {
+      catAtivo = urlCat;
+      shown = Number.MAX_SAFE_INTEGER;
+    }
+    $$(".filter").forEach(function (b) {
+      b.classList.toggle("is-active", b.getAttribute("data-filter") === catAtivo);
+    });
+    filt();
+
     /* filtros */
     $$(".filter").forEach(function (btn) {
       btn.addEventListener("click", function () {
         $$(".filter").forEach(function (b) { b.classList.remove("is-active"); });
         btn.classList.add("is-active");
-        var cat = btn.getAttribute("data-filter");
-        $$(".gal-item", gal).forEach(function (it) {
-          var show = cat === "todos" || it.getAttribute("data-cat") === cat;
-          it.classList.toggle("is-hidden", !show);
-        });
+        catAtivo = btn.getAttribute("data-filter");
+        if (catAtivo !== "todos") shown = Number.MAX_SAFE_INTEGER;
+        filt();
       });
     });
 
@@ -222,7 +250,7 @@ var RGF_CONFIG = {
       lbImg.src = g.f;
       lbImg.alt = g.a;
       lbCount.textContent = (current + 1) + " / " + list.length;
-      lbCap.textContent = labels[g.c] || "";
+      lbCap.textContent = g.s || labels[g.c] || "";
       list[current].scrollIntoView({ block: "nearest" });
     }
     function stepLB(dir) {
