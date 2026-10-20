@@ -73,7 +73,7 @@ var RGF_CONFIG = {
 
   /* ---------- WhatsApp / Instagram / E-mail ---------- */
   var waBase = "https://wa.me/";
-  var waMsg = "Olá, Renato! Vim pelo seu site e gostaria de mais informações.";
+  var waMsg = "Olá, Renato Guerra! Conheci seu trabalho pelo site e gostaria de saber mais sobre seu trabalho.";
   $$("[data-wa]").forEach(function (el) {
     if (RGF_CONFIG.whatsapp) {
       el.setAttribute("href", waBase + RGF_CONFIG.whatsapp +
